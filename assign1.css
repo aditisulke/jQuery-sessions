@@ -1,0 +1,26 @@
+ul{
+    color:blue;
+}
+li{
+    display:inline;
+    padding: 5px;
+}
+header{
+    margin: 8px;
+    text-align:center;
+}
+
+.article1{
+    display:grid;
+    margin-top:10px;
+    display: inline-block;
+    text-align: center;
+}
+.div1{
+    padding: 20px;
+    border-style: dashed;
+    margin-left: 20px ;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
