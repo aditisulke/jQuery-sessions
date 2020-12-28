@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <div background-color :pink></div>
+</head>
+</style>
+
+<body>
+    <style>
+        body {
+            background-color: rgb(252, 251, 225);
+        }
+
+        #box1 {
+            background-color: rgb(250, 226, 230);
+            width: 500px;
+            height: 200px;
+            padding: 20px;
+            border: 2px solid #aaaaaa;
+        }
+
+        #box2 {
+            width: 500px;
+            height: 300px;
+            padding: 20px;
+            border: 2px solid #aaaaaa;
+        }
+    </style>
+    <h1 style="text-align: center;">Veronica Creators</h1>
+    <h2>Registration Form</h2>
+
+    <div id="box1">
+        <div>Enter Name : <input type="text" placeholder="first name" name="fname"></div><br>
+        <div>Enter Phone Number : <input type="tel" pattern="^[1-9]+[0-9]{9}" id="pno" name="pno"></div><br>
+        <div>Enter you Email Address :<input type="email" placeholder="a@b.com" id="email" name="em"></div> <br>
+        <div>Enter you Age : <input type="number" id="age" name="age"></div><br>
+
+        <tr>
+            <td>Type of Music :</td>
+            <td>
+                <select>
+                    <option value="classical"> Classial </option>
+                    <option value="western"> Western </option>
+                    <option value="rap"> Rap </option>
+                    <option value="Pop"> Pop </option>
+                </select>
+        </tr>
+        </td><br><br>
+    </div>
+
+    <div id="box2">
+        <tr>
+            <td colspan="4" style="text-align: centre; color: aliceblue;">
+        </tr>
+        <span style="color: navy">
+            <h2>Payment Details</h2>
+        </span><br></td>
+
+        <tr>
+            <td>Payment Mode : </td>
+            <td>
+                <select id="Payment" name="Payment">
+                    <option value="cash"> Cash on Form Submission </option><br>
+                    <option value="card"> Payment through Card </option><br>
+                    <option value="upi"> Payment through UPI </option><br>
+                    <option value="nb"> Payment through Net Banking </option><br>
+                </select>
+            </td>
+        </tr><br><br>
+
+        <tr>
+            <td> Enter your Card Number : </td>
+            <td><input type="number"></td><br><br>
+        </tr>
+        <tr>
+            <td> Enter CVV : </td>
+            <td><input type="number"></td><br><br>
+        </tr>
+        <tr>
+            <td> Enter your UPI ID : </td>
+            <td><input type="email" placeholder="a@b.com" id="email"></td><br>
+        </tr>
+        <tr>
+            <td>
+                <h3>Discount Applicable in case of Internet Banking ! </h3>
+            </td>
+            <td>
+                <h3>!5% Discount Applied !</h3>
+            </td><br>
+        </tr>
+    </div>
+    <tr>
+        <td colspan="3" style="text-align: centre; color: aliceblue;" k>
+    </tr>
+    <span style="color: red">
+        <h2> Login Credetentials : </h2>
+    </span></td>
+    <tr>
+        <td> Username : </td>
+        <td><input type="text"></td><br>
+    </tr>
+
+    <tr>
+        <td> Password : </td>
+        <td><input type="text"></td><br>
+    </tr>
+    <tr>
+        <td> Confirm Password : </td>
+        <td><input type="text"></td><br>
+    </tr>
+
+    <label for="sub">Submit </label>
+    <input type="submit" name="sub">
+
+
+</body>
+
+</html>
+
+</html>

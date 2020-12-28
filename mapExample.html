@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Example</title>
+    <style>
+        p {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <p> <b>
+            Values :
+        </b></p>
+
+    <input type="text" name="Name" value="Aditi">
+    <input type="text" name="Password" value="Aditi@123">
+    <input type="text" name="url" value="abc@d.com">
+    <button>Send</button>
+
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $('p').append($('input').mapfunction({
+                    console.log($(this).val());
+                    return $(this).val();
+                })
+                    .get()
+                    .join(" , "))
+        })}
+    </script>
+</body>
+
+</html>
